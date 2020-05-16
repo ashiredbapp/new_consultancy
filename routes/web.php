@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/myindex', function () {
+    return view('index1');
+});
+Route::get('/mytest', function () {
+    return view('test_template');
+});
+Route::resource('/user','UserController');
