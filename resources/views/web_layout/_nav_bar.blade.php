@@ -12,12 +12,12 @@
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav m-auto">
-	        	<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+	        	<li class="nav-item active"><a href="/new_consultancy/public/" class="nav-link">Home</a></li>
 	        	<li class="nav-item"><a href="" class="nav-link">About</a></li>
 	        	<li class="nav-item"><a href="" class="nav-link">Services</a></li>
 	          <li class="nav-item"><a href="" class="nav-link">Director's Message</a></li>
-	          <li class="nav-item"><a href="" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a href="" class="nav-link">jobs</a></li>
+	          <li class="nav-item"><a href="/new_consultancy/public/contact" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>

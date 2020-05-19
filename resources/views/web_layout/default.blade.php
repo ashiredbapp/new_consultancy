@@ -7,9 +7,12 @@
     @include('web_layout._css')
     @yield('css')
   </head>
+
   @include('web_layout._nav_bar')
   @yield('social_link')
   @yield('slider')
+
+
   <body>
   @yield('content')
   </body>
