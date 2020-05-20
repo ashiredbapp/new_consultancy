@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home_page');
 });
-Route::get('/contact', function () {
+Route::get('/contact_us', function () {
     return view('contact');
 });
 Route::get('/myindex', function () {
@@ -26,3 +26,6 @@ Route::get('/mytest', function () {
     return view('test_template');
 });
 Route::resource('/user','UserController');
+
+Route::resource('/contact','ContactPageController');
+
