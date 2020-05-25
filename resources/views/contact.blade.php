@@ -30,9 +30,12 @@
                                     <h3 class="mb-4">Get in touch</h3>
                                     <div id="form-message-warning" class="mb-4"></div>
                               <div id="form-message-success" class="mb-4">
-                            Your message was sent, thank you!
+                                <?php if(strnen($_GET['msg'])>0){
+                                    echo $_GET['msg'];
+                                };?>
                               </div>
-                                    <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                                    <form method="POST" id="contactForm" name="contactForm" class="contactForm"
+                                                                    action="contact">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
@@ -44,6 +47,22 @@
                                                 <div class="form-group">
                                                     <label class="label" for="email">Email Address</label>
                                                     <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="label" for="mobile">Mobile</label>
+                                                    <input type="text" class="form-control" name="mobile" id="mobile" placeholder="Mobile No">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="label" for="mobile">Category</label>
+                                                      <select id="type" name="type" class="form-control" >
+                                                        <option value="1">I am a Job seeker</option>
+                                                        <option value="2">I am an Employer</option>
+                                                        <option value="3">I am a freelancer</option>
+                                                      </select>
                                                 </div>
                                             </div>
                                             <div class="col-md-12">

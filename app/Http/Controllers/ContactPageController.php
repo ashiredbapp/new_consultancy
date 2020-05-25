@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\ContactPage;
+use Session;
 use Illuminate\Http\Request;
 
 class ContactPageController extends Controller
@@ -37,14 +38,15 @@ class ContactPageController extends Controller
     public function store(Request $request)
     {
         $contact=new ContactPage();
-        $contact->full_name=$request->full_name;
+        $contact->full_name=$request->name;
         $contact->email=$request->email;
         $contact->mobile=$request->mobile;
         $contact->subject=$request->subject;
         $contact->message=$request->message;
         $contact->type=$request->type;
         $contact->save();
-        return "data saved";
+        return redirect('/contact_us?msg=my msg');
+        //return back()->withErrors(['msg', 'We will be back soon']);
     }
 
     /**
@@ -53,9 +55,10 @@ class ContactPageController extends Controller
      * @param  \App\ContactPage  $contactPage
      * @return \Illuminate\Http\Response
      */
-    public function show(ContactPage $contactPage)
+    public function show($id)
     {
-        //
+        $contact=ContactPage::find($id);
+        return $contact;
     }
 
     /**
@@ -66,7 +69,7 @@ class ContactPageController extends Controller
      */
     public function edit(ContactPage $contactPage)
     {
-        //
+
     }
 
     /**
@@ -76,9 +79,18 @@ class ContactPageController extends Controller
      * @param  \App\ContactPage  $contactPage
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, ContactPage $contactPage)
+    public function update(Request $request, $id)
     {
-        //
+        $contact=ContactPage::find($id);
+        $contact->full_name=$request->full_name;
+        $contact->email=$request->email;
+        $contact->mobile=$request->mobile;
+        $contact->subject=$request->subject;
+        $contact->message=$request->message;
+        $contact->type=$request->type;
+        $contact->save();
+        return "data edited";
+
     }
 
     /**
@@ -87,8 +99,9 @@ class ContactPageController extends Controller
      * @param  \App\ContactPage  $contactPage
      * @return \Illuminate\Http\Response
      */
-    public function destroy(ContactPage $contactPage)
+    public function destroy($id)
     {
-        //
+        $contact=ContactPage::find($id);
+        $contact->delete();
     }
 }
