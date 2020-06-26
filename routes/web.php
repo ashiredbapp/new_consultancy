@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\DownloadController;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,6 +36,16 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+Route::post('excelDownload',function(Request $request)
+{
+    if( $request->url )
+    {
+        $data 	        = explode(',', $request->url );
+        $method	        = $data[0];
+        $input          = decrypt($data[1]);
+        $parameter      = str_replace('||', ',' ,$data[2]);
+        $classInstance  = new DownloadController();
+        $file = $classInstance->{$method}($input,json_decode($parameter));
+        return response()->download($file);
+    }
+});

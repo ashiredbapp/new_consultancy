@@ -1,0 +1,558 @@
+/*
+*
+*MRL Pay Portal - Custom Css
+*
+*/
+
+/** For Leftmenu Single Menu Option **/
+.page-sidebar-menu.page-sidebar-menu-hover-submenu>li:hover>a>.selected.open1 {
+  display: block;
+}
+
+.form {
+  padding: 0 !important;
+}
+
+/** For Portlet Box **/
+.portlet-form .form-body, .form .form-body {
+  padding: 20px;
+}
+
+.form-horizontal .form-group .mt-checkbox-inline, .form-horizontal .form-group .mt-radio-inline {
+  padding-top: 8px;
+}
+
+.mt-checkbox-inline, .mt-radio-inline {
+  padding: 10px 0;
+}
+
+.infoTable ul {
+  padding: 0 0 0 20px;
+}
+
+.timeline .timeline-body-content {
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.grey_bg{
+  background-color: #ccc !important;
+}
+.white_bg{
+  background-color: #fff !important;
+}
+
+.font-grey-cascade {
+  font-size: 12px;
+}
+
+.timeline .timeline-body {
+  padding: 0 0 0 20px;
+  margin-left: 0;
+  margin-top: 0;
+  background-color: transparent;
+}
+
+.timeline::before{
+  content: none;
+}
+
+.timeline .timeline-item {
+  margin: 0;
+  padding: 0 0 5px 0;
+  border-bottom: 1px dashed #e9edef;
+}
+
+.timeline .timeline-item:last-child {
+  padding: 0;
+  border-bottom: none;
+}
+
+.timeline .timeline-body-arrow {
+  position: absolute;
+  top: 8px;
+  left: 5px;
+  width: 0;
+  border-color: #ababab;
+  height: 0;
+  border-style: solid;
+  border-width: initial;
+}
+
+.timeline .timeline-body-title {
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media (max-width: 480px){
+  .timeline .timeline-body-arrow {
+    top: 9px;
+  }
+}
+
+.info-table td, .info-table th{
+  white-space: nowrap;;
+}
+
+.table-bordered>thead>tr>th, .table-bordered>tbody>tr>td{
+  white-space: nowrap;
+}
+
+.infoTable .table-bordered>tbody>tr>td{
+  white-space: normal;
+}
+
+.DTFC_Cloned{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.mt-checkbox>input, .mt-radio>input {
+  z-index: 1000;
+  cursor: pointer;
+  right: 15px;
+}
+
+.toast-top-right {
+  top: 60px !important;
+  right: 12px;
+}
+
+.btn:not(.md-skip) {
+  font-size: 12px;
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+  padding: 8px 14px 7px;
+}
+
+.badge, .btn:not(.md-skip) {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.details .number i{
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.select2-container--bootstrap {
+  width: 100% !important;
+}
+
+.page-content-white .page-bar .page-breadcrumb {
+  padding: 14px 0;
+}
+
+#site_statistics, #site_activities, #chart3_div, #div_piechart, #div_barchart, #site_activities_in, #site_statistics_in, #chart3_div_in, #div_piechart_indian, #div_barchart_indian, #method_div, #method_div_indian {
+  width: 100%;
+  height: 300px;
+  background-color: #FFFFFF;
+}
+
+/** For Filter Box **/
+.filterButton {
+  width: 90px;
+}
+
+.filter-lable {
+  color: #907979;
+  font-size: 13px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+
+}
+
+.form-actions .btn {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.required{
+  color: #e02222;
+  font-size: 12px;
+  padding-left: 0 !important;
+}
+
+.errorMessage{
+  color: #e02222;
+  font-size: 14px;
+}
+
+/** Error msg are showing twice so hide one msg**/
+.help-block-error{
+  display: none !important;
+}
+
+.addNew{
+  font-size: 15px;
+}
+
+.addNew i{
+  position: relative;
+  top: -2px;
+}
+
+.no-padding{
+  padding:0 !important;
+}
+
+.padding-top-15{
+  padding-top: 15px !important;
+}
+
+#smartRouting_Table tbody tr:hover{
+  cursor: pointer;
+  background: #f7f7f7;
+}
+
+.user-login-5 .login-logo.login-6 {
+  top: 35px;
+}
+
+.DTS .table-scrollable, .table-scrollable.table-scrollable-borderless, .table-scrollable>.table-bordered {
+  border: 1px solid #e7ecf1 !important;
+}
+
+.page-sidebar .page-sidebar-menu>li>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li>a {
+  border-top: none;
+}
+
+.float-right{
+  float: right !important;
+}
+
+.margin-left-5{
+  margin-left: 5px;
+}
+
+table.dataTable tbody td, table.dataTable thead td {
+  vertical-align: middle;
+  white-space: nowrap;
+  border-left: 0;
+  border-bottom: 0;
+}
+
+table.dataTable thead th, table.dataTable thead td{
+  padding-left:10px;
+  padding-right: 10px;
+}
+
+/** For Login Page **/
+@media (min-width: 1023px){
+  .user-login-5 .login-container>.login-content {
+    margin-top: 25% !important;
+  }
+}
+
+.user-login-5 .login-container>.login-content>.login-form{
+  margin-top: 10px !important;
+}
+
+.margin-top-60{
+  margin-top:60px;
+}
+
+.user-login-5 .login-container>.login-content .block-quote p{
+  line-height: 34px;
+}
+
+.user-login-5 .alert {
+  margin-top: 0;
+}
+
+.block-quote .left-quote{
+  font-size: 26px;
+  margin-right: 12px;
+}
+
+.block-quote .right-quote{
+  font-size: 26px;
+  margin-left: 12px;
+}
+
+.img-circle {
+  border: 1px solid #ccc;
+}
+
+.logged_in_user {
+  border: 3px solid #62c500 !important;
+}
+.block-quote  span{
+  display:block;
+}
+
+/**
+* For Animated Circle
+**/
+
+.circle_selector {
+  position: relative;
+  left: 30%;
+  width: 225px;
+  height: 225px;
+  margin-top: 205px;
+}
+
+.circle_selector, .circle_selector button {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+
+.circle_selector button {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background: #e35b5a;
+  border-radius: 50% !important;
+  border: 0;
+  color: white;
+  font-size: 34px;
+  cursor: pointer;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  transition: all .1s;
+}
+
+.circle_selector button:hover {
+  background: #e04a49;
+}
+
+.circle_selector button:focus {
+  outline: none;
+}
+
+.circle_selector ul {
+  position: absolute;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  top: -20px;
+  right: -20px;
+  bottom: -20px;
+  left: -20px;
+}
+
+.circle_selector.open ul li input + label {
+  width: 135px;
+  height: 135px;
+  line-height: 24px;
+  border-radius: 50% !important;
+  margin-left: -63px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+.circle_selector li {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  -webkit-transform: rotate(-360deg);
+  transition: all 0.8s ease-in-out;
+}
+
+.circle_selector li input {
+  display: none;
+}
+
+.circle_selector li:nth-child(even) input + label {
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  width: 0;
+  height: 0;
+  line-height: 1px;
+  margin-left: 0;
+  background: #578ebe;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: none;
+  transition: all 0.8s ease-in-out, color 0.1s, background 0.1s;
+}
+
+.circle_selector li:nth-child(odd) input + label {
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  width: 0;
+  height: 0;
+  line-height: 1px;
+  margin-left: 0;
+  background: #44b6ae;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: none;
+  transition: all 0.8s ease-in-out, color 0.1s, background 0.1s;
+}
+
+.circle_selector li:nth-child(odd) input + label:hover {
+  background: #3ea7a0;
+}
+
+.circle_selector li:nth-child(odd) input + label:hover span {
+  color: #ffffff;
+}
+
+.circle_selector li:nth-child(even) input + label:hover {
+  background: #4884b8;
+}
+
+.circle_selector li:nth-child(even) input + label:hover span {
+  color: #ffffff;
+}
+
+.circle_selector li input:checked + label {
+  background: #e35b5a;
+  color: white;
+}
+
+.circle_selector li input:checked + label:hover {
+  background: #e04a49;
+}
+
+.circle_selector ul li label span{
+  position: relative;
+  top: 35%;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.circle_box{
+  width:100%;
+  float: left;
+}
+
+/** For Dashboard stat **/
+@media only screen and (max-width: 1200px) {
+  .portlet .dashboard-stat:last-child {
+    margin-bottom: 25px;
+  }
+}
+
+/** For Right Side Page Content ** Decreased 235px to 200px **/
+@media (min-width: 992px){
+  .page-content-wrapper .page-content {
+    margin-left: 200px;
+  }
+  .form-horizontal .control-label{
+    padding-left:0 !important;
+    padding-right:0 !important;
+  }
+  .page-sidebar {
+    width: 200px;
+  }
+  .page-sidebar-menu.page-sidebar-menu-hover-submenu>li:hover>.sub-menu {
+    margin-left: 200px;
+  }
+}
+
+@media (min-width: 768px){
+  #info_modal .modal-dialog {
+    width: 700px;
+  }
+  .modal_wrap #info_modal .modal-dialog {
+    width: 75%;
+  }
+}
+@media (max-width: 768px){
+  .page-header.navbar .top-menu .navbar-nav>li.dropdown-notification .dropdown-menu:after, .page-header.navbar .top-menu .navbar-nav>li.dropdown-notification .dropdown-menu:before {
+    margin-right: 0;
+  }
+  .page-header.navbar .top-menu .navbar-nav>li.dropdown-notification .dropdown-menu {
+    margin-right: 0;
+  }
+  .image_td{
+    display: none;
+  }
+  .page-content-white .page-title {
+    display: flow-root;
+  }
+  .page-title table{
+    margin-bottom: 0;
+  }
+  .dataTables_filter .float-right {
+    float: none !important;
+  }
+}
+
+#merch_search::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:    #b4bcc8;
+}
+#merch_search:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:    #b4bcc8;
+  opacity:  1;
+}
+#merch_search::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:    #b4bcc8;
+  opacity:  1;
+}
+#merch_search:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:    #b4bcc8;
+}
+.model_img{
+  display: inline-block;
+  margin-top: 25px;
+  width: 100%;
+}
+.tran_analysis_table thead tr th{font-size:13px;}
+.tran_analysis_table tbody tr td{font-size:12px;}
+.highcharts-button{ display: none !important;}
+
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: auto;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+.page-header.navbar {
+    background-color: #0066a1;
+}

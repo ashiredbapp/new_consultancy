@@ -18,9 +18,15 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('mobile');
+            $table->string('avatar')->nullable();
+            $table->enum('gender', ['Male', 'Female','Unknown']);
+            $table->boolean('profile_approve')->default(0);
+            $table->boolean('avatar_approve')->default(0);
+            $table->boolean('status')->default(0);
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
+            $table->softDeletes();
             $table->timestamps();
         });
     }

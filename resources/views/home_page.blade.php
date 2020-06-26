@@ -5,7 +5,7 @@
 @stop
 
 @section('title')
-    Welcome to ASHIRE
+    Welcome to {{  config('app.name')}}
 @stop
 
 @section('slider')
