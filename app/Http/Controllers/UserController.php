@@ -5,6 +5,12 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Util;
 use DB;
+use File;
+use Auth;
+use Session;
+use DataTables;
+use App\User;
+
 
 class UserController extends Controller
 {
@@ -15,7 +21,7 @@ class UserController extends Controller
      */
     public function index()
     {
-        //
+        return view('user.index');
     }
 
     public function userData(Request $request)
@@ -28,6 +34,8 @@ class UserController extends Controller
                 'name'              => 'Name',
                 'email'             => 'Email',
                 'mobile'            => 'Mobile',
+                'gender'            => 'Gender',
+                'user_type_id'       => 'User Type',
 
             ];
            // if( $permission['edit'] || $permission['delete'] )
@@ -37,14 +45,16 @@ class UserController extends Controller
                 'name'              => 'Name',
                 'email'             => 'Email' ,
                 'mobile'            => 'Mobile',
+                'gender'            => 'Gender',
+                'user_type_id'      => 'User Type',
 
             ];
 
             return ['columns' => $headers,'searchFields' => $searchFields];
         }
 
-        $columns = ['id','avatar','name', 'email', 'mobile'];
-        $Ocolumns = ['name', 'email', 'mobile'];
+        $columns = ['id','avatar','name', 'email', 'mobile','gender','user_type_id'];
+        $Ocolumns = ['name', 'email', 'mobile','gender','user_type_id'];
 
 
         # Pagination
@@ -91,10 +101,10 @@ class UserController extends Controller
                     $profileImageUrl = asset($models->avatar);
                 else
                 {
-                   // if($models->gender=='Male')
-                        $profileImageUrl = asset('uploads/avatar/default.png');
-                    //else
-                      //  $profileImageUrl = asset('assets/layouts/layout3/img/female.png');
+                    if($models->gender=='Male')
+                        $profileImageUrl = asset('assets1/layouts/layout3/img/male.png');
+                    else
+                        $profileImageUrl = asset('assets1/layouts/layout3/img/female.png');
                 }
 
                 return '<img class="img-circle" width="29px" src="'.$profileImageUrl.'" >';
@@ -104,7 +114,7 @@ class UserController extends Controller
                 return Util::shortText($models->name, 20);
             })
             ->editColumn('email',function($models){
-                return Util::shortText($models->email, 20);
+                return Util::shortText($models->email, 25);
             })
             ->editColumn('mobile',function($models){
                 return Util::shortText($models->mobile, 20);
@@ -115,13 +125,13 @@ class UserController extends Controller
                 $model_id = encrypt($models->id);
                 $space  = '&nbsp;&nbsp;';
             //    if( $permission['edit'] )
-                    $access .= Util::getEditIcon( route('user-edit', [$models->id]) ).$space;
+                    $access .= Util::getEditIcon( route('user.edit', [$models->id]) ).$space;
               //  if( $permission['delete'] )
                     $access .= Util::getDeleteIcon( $models->id ).$space;
                 //if( $permission['other-user'] )
-                    $access .= Util::getOtherUserLoginIcon( route('user', [encrypt($models->id)] ) ).$space;
+                    $access .= Util::getOtherUserLoginIcon( route('user.index', [encrypt($models->id)] ) ).$space;
                 //if( $permission['reset_password'])
-                    $access .= Util::getPasswordResetIcon( route('user', [encrypt($models->id)] ) ).$space;
+                    $access .= Util::getPasswordResetIcon( route('user.index', [encrypt($models->id)] ) ).$space;
 
             return $access;
             })

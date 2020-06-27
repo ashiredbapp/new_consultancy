@@ -51,7 +51,7 @@
                     <div class="portlet-body">
                         @php
 
-                        $button = '<button class="btn green" onclick="window.location.replace(\''.route('user-create' ) .'\')">Add New</button>';
+                        $button = '<button class="btn green" onclick="window.location.replace(\''.route('user.create' ) .'\')">Add New</button>';
                         @endphp
                         {{ Util::datatable('datatable_USERS', 'user-ajax', $button??'') }}
                     </div>
@@ -77,7 +77,7 @@
             { responsivePriority: 3, targets: 2 },
             { responsivePriority: 4, targets: 3 },
             { className: 'dt-center', targets: [1] },
-            { orderable: false, targets: [0, 4] }
+            { orderable: false, targets: [0, 4] },
             { orderable: false, targets: [1] }
 
         ];

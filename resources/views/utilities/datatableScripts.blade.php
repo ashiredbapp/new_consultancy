@@ -1,9 +1,9 @@
 @section('custom_scripts')
 @parent
 
-<script src="{{ asset('assets/global/plugins/datatables/datatables.min.js') }}"></script>
-<script src="{{ asset('assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js') }}"></script>
-<script src="{{ asset('assets/global/plugins/jquery-multi-select/js/jquery.multi-select.js') }}"></script>
+<script src="{{ asset('assets1/global/plugins/datatables/datatables.min.js') }}"></script>
+<script src="{{ asset('assets1/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js') }}"></script>
+<script src="{{ asset('assets1/global/plugins/jquery-multi-select/js/jquery.multi-select.js') }}"></script>
 <script>
 
 if( $(".searchConditions .conditionContainer").length  == 0){

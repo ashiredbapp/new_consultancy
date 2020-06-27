@@ -5,7 +5,7 @@
                    <!-- BEGIN LOGO -->
                    <div class="page-logo">
                        <a href="{{url('/home')}}">
-                           <img src="{{ asset('assets/legend_foundation_logo_icon.png') }}" width="20%" alt="logo"
+                           <img src="{{ asset('assets/images/logo.png') }}" width="20%" alt="logo"
                                class="logo-default">
                        </a>
                    </div>
@@ -27,10 +27,10 @@
                                    @else
                                    @if( Auth::user()->gender === 'Male' )
                                    <img alt="" class="img-circle"
-                                       src="{{ asset('assets/layouts/layout3/img/male.png') }}">
+                                       src="{{ asset('assets1/layouts/layout3/img/male.png') }}">
                                    @else
                                    <img alt="" class="img-circle"
-                                       src="{{ asset('assets/layouts/layout3/img/female.png') }}">
+                                       src="{{ asset('assets1/layouts/layout3/img/female.png') }}">
                                    @endif
                                    @endif
                                    <span
@@ -85,46 +85,9 @@
                                    <span class="arrow"></span>
                                </a>
                            </li>
-                           <li class="menu-dropdown classic-menu-dropdown">
-
-                                <a href="index.php" class="nav-link ">
-                                    <b> Apartment</b>
-                                   <span class="arrow"></span>
-                               </a>
-
-                           </li>
-                           <li class="menu-dropdown classic-menu-dropdown">
-                               <a><b> Flat's</b>
-                                   <span class="arrow"></span>
-                               </a>
-
-                           </li>
 
                            <li class="menu-dropdown classic-menu-dropdown">
-                               <a><b>Accounts</b>
-                                   <span class="arrow"></span>
-                               </a>
-
-                           </li>
-                           <li class="menu-dropdown classic-menu-dropdown">
-                               <a><b>Helpline No's</b>
-                                   <span class="arrow"></span>
-                               </a>
-
-                           </li>
-                           <li class="menu-dropdown classic-menu-dropdown">
-                               <a><b>MOM</b>
-                                   <span class="arrow"></span>
-                               </a>
-
-                           </li>
-                           <li class="menu-dropdown classic-menu-dropdown">
-                               <a href="{{ ('upcoming-enhancement.index')}}" class="nav-link bold">
-                                   Shopping
-                               </a>
-                           </li>
-                           <li class="menu-dropdown classic-menu-dropdown">
-                            <a href="{{ route('user') }}"><b>Users</b>
+                            <a href="{{ route('user.index') }}"><b>Users</b>
                                 <span class="arrow"></span>
                             </a>
 

@@ -21,13 +21,9 @@ Route::get('/', function () {
 Route::get('/contact_us', function () {
     return view('contact');
 });
-Route::get('/myindex', function () {
-    return view('index1');
-});
-Route::get('/mytest', function () {
-    return view('test_template');
-});
+
 Route::resource('/user','UserController');
+Route::get('/user-ajax', 'UserController@userData');
 
 Route::resource('/contact','ContactPageController');
 

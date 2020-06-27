@@ -16,27 +16,27 @@
         <!-- BEGIN GLOBAL MANDATORY STYLES -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link href="{{ asset('assets/global/plugins/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('assets/global/plugins/simple-line-icons/simple-line-icons.min.css') }}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('assets/global/plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets1/global/plugins/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets1/global/plugins/simple-line-icons/simple-line-icons.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets1/global/plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets1/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css') }}" rel="stylesheet" type="text/css" />
         <!-- END GLOBAL MANDATORY STYLES -->
         <!-- BEGIN PAGE LEVEL PLUGINS -->
-        <link href="{{ asset('assets/global/plugins/select2/css/select2.min.css') }}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('assets/global/plugins/select2/css/select2-bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets1/global/plugins/select2/css/select2.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets1/global/plugins/select2/css/select2-bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
         @yield('header_styles')
         @stack('page_styles')
 
         <!-- END PAGE LEVEL PLUGINS -->
         <!-- BEGIN THEME GLOBAL STYLES -->
-        <link href="{{ asset('assets/global/css/components.min.css') }}" rel="stylesheet" id="style_components" type="text/css" />
-        <link href="{{ asset('assets/global/css/plugins.min.css') }}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('assets/global/plugins/bootstrap-toastr/toastr.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets1/global/css/components.min.css') }}" rel="stylesheet" id="style_components" type="text/css" />
+        <link href="{{ asset('assets1/global/css/plugins.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets1/global/plugins/bootstrap-toastr/toastr.min.css') }}" rel="stylesheet" type="text/css" />
         <!-- END THEME GLOBAL STYLES -->
         <!-- BEGIN THEME LAYOUT STYLES -->
-        <link href="{{ asset('assets/layouts/layout3/css/layout.min.css') }}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('assets/layouts/layout3/css/themes/default.min.css') }}" rel="stylesheet" type="text/css" id="style_color" />
-        <link href="{{ asset('assets/layouts/layout3/css/custom.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets1/layouts/layout3/css/layout.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets1/layouts/layout3/css/themes/default.min.css') }}" rel="stylesheet" type="text/css" id="style_color" />
+        <link href="{{ asset('assets1/layouts/layout3/css/custom.min.css') }}" rel="stylesheet" type="text/css" />
         <!-- END THEME LAYOUT STYLES -->
         <link rel="shortcut icon" href="{{ asset('legend_foundation_logo_icon.png') }}" />
     </head>
@@ -60,26 +60,26 @@
         <!-- END CONTAINER -->
         @include('layouts._footer')
         <!--[if lt IE 9]>
-        <script src="{{ asset('assets/global/plugins/respond.min.js') }}"></script>
-        <script src="{{ asset('assets/global/plugins/excanvas.min.js') }}"></script>
+        <script src="{{ asset('assets1/global/plugins/respond.min.js') }}"></script>
+        <script src="{{ asset('assets1/global/plugins/excanvas.min.js') }}"></script>
         <![endif]-->
         <!-- BEGIN CORE PLUGINS -->
-        <script src="{{ asset('assets/global/plugins/jquery-3.3.1.min.js') }}"></script>
-        <script src="{{ asset('assets/global/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
-        <script src="{{ asset('assets/global/plugins/js.cookie.min.js') }}"></script>
-        <script src="{{ asset('assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js') }}"></script>
-        <script src="{{ asset('assets/global/plugins/slimscroll/jquery.slimscroll.min.js') }}"></script>
-        <script src="{{ asset('assets/global/plugins/jquery.blockui.min.js') }}"></script>
-        <script src="{{ asset('assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js') }}"></script>
+        <script src="{{ asset('assets1/global/plugins/jquery-3.3.1.min.js') }}"></script>
+        <script src="{{ asset('assets1/global/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('assets1/global/plugins/js.cookie.min.js') }}"></script>
+        <script src="{{ asset('assets1/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js') }}"></script>
+        <script src="{{ asset('assets1/global/plugins/slimscroll/jquery.slimscroll.min.js') }}"></script>
+        <script src="{{ asset('assets1/global/plugins/jquery.blockui.min.js') }}"></script>
+        <script src="{{ asset('assets1/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js') }}"></script>
         <!-- END CORE PLUGINS -->
         <!-- BEGIN PAGE LEVEL PLUGINS -->
-        <script src="{{ asset('assets/global/plugins/select2/js/select2.full.min.js') }}"></script>
+        <script src="{{ asset('assets1/global/plugins/select2/js/select2.full.min.js') }}"></script>
         @yield('page_scripts')
         <!-- END PAGE LEVEL PLUGINS -->
         <!-- BEGIN THEME GLOBAL SCRIPTS -->
-        <script src="{{ asset('assets/global/plugins/moment.min.js') }}"></script>
-        <script src="{{ asset('assets/global/plugins/bootstrap-toastr/toastr.min.js') }}"></script>
-        <script src="{{ asset('assets/global/scripts/app.min.js') }}"></script>
+        <script src="{{ asset('assets1/global/plugins/moment.min.js') }}"></script>
+        <script src="{{ asset('assets1/global/plugins/bootstrap-toastr/toastr.min.js') }}"></script>
+        <script src="{{ asset('assets1/global/scripts/app.min.js') }}"></script>
         <!-- END THEME GLOBAL SCRIPTS -->
         <!-- BEGIN PAGE LEVEL SCRIPTS -->
         @yield('custom_scripts')
@@ -294,9 +294,9 @@
         </script>
         <!-- END PAGE LEVEL SCRIPTS -->
         <!-- BEGIN THEME LAYOUT SCRIPTS -->
-        <script src="{{ asset('assets/layouts/layout3/scripts/layout.min.js') }}"></script>
-        <script src="{{ asset('assets/layouts/global/scripts/quick-sidebar.min.js') }}"></script>
-        <script src="{{ asset('assets/global/plugins/bootbox/bootbox.min.js') }}"></script>
+        <script src="{{ asset('assets1/layouts/layout3/scripts/layout.min.js') }}"></script>
+        <script src="{{ asset('assets1/layouts/global/scripts/quick-sidebar.min.js') }}"></script>
+        <script src="{{ asset('assets1/global/plugins/bootbox/bootbox.min.js') }}"></script>
         <!-- END THEME LAYOUT SCRIPTS -->
     </body>
 </html>

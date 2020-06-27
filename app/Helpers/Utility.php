@@ -31,10 +31,6 @@ class Utility
         return "<a class='tooltips' data-original-title='information' href='javascript:;' onclick=\"loadModal('$id');\"><i class='fa fa-info'></i></a>";
     }
 
-    public static function get360Icon($url)
-    {
-        return "<a class='tooltips' data-original-title='360 View' target='_blank' href='$url'><i class='fa fa-tachometer'></i></a>";
-    }
 
     public static function getEditIcon($url)
     {
@@ -64,149 +60,6 @@ class Utility
         return "<a class='tooltips' data-original-title='PDF' target='_blank' href='$url'><i class='fa fa-file-pdf-o'></i></a>";
     }
 
-    public static function getDependencyIcon($url)
-    {
-        return '<a class="tooltips" data-original-title="Dependency" href="'.$url.'"><i class="fa fa-openid"></i></a>';
-    }
-
-    public static function getScrumIcon($url)
-    {
-        return '<a class="tooltips" data-original-title="Daily Scrum" href="'.$url.'"><i class="fa fa-strikethrough"></i></a>';
-    }
-
-    public static function getRetrospectiveIcon($url)
-    {
-        return '<a class="tooltips" data-original-title="Retrospective" href="'.$url.'"><i class="fa fa-registered"></i></a>';
-    }
-
-    public static function getMomIcon($url)
-    {
-        return '<a class="tooltips" data-original-title="MoM" href="'.$url.'"><i class="fa fa-envelope"></i></a>';
-    }
-
-    public static function getTreeIcon($url)
-    {
-        return "<a class='tooltips' data-original-title='Tree view' href='javascript:;' onclick=\"loadTree('$url');\"><i class='fa fa-tree'></i></a>";
-    }
-
-    public static function getActualIcon($id)
-    {
-        return "<a class='tooltips' data-original-title='Actual' href='javascript:;' onclick=\"showActualForm('$id');\"><i class='fa fa-font'></i></a>";
-    }
-
-    public static function getHistoryIcon($url)
-    {
-        return "<a class='tooltips' data-original-title='History' href='javascript:;' onclick=\"loadhistory('$url');\"><i class='fa fa-history'></i></a>";
-    }
-    public static function getProductionIcon($url)
-    {
-        return '<a class="tooltips" data-original-title="Production Move" href="'.$url.'"><i class="fa fa-paragraph"></i></a>';
-    }
-
-    public static function getDocIcon($url, $count=0)
-    {
-        return '<a class="tooltips" data-original-title="File Upload" href="'.$url.'"><i class="fa fa-file"></i>'.(($count>0)?'<sup><span class="font-green-jungle sbold">'.$count.'</span></sup>':'').'</a>';
-    }
-
-    public static function getActiveIcon($url)
-    {
-        return '<a class="tooltips" data-original-title="Activate Sprint" href="'.$url.'"><i class="fa fa-font"></i></a>';
-    }
-
-    public static function getRegisterIcon($url)
-    {
-        return '<a class="tooltips" data-original-title="Register" href="'.$url.'"><span class="font-green-jungle bold">R</span></a>';
-    }
-
-    public static function getCloseIcon($url)
-    {
-        return "<a class='tooltips' data-original-title='Close Sprint' href='".$url."'><span class='font-red-jungle'>C</span></a>";
-    }
-    public static function timesheetIcon($url,$timesheet)
-    {
-        return "<a class='tooltips' data-original-title='Timesheet' href='".$url."'>".(($timesheet === true)?'<span class="font-green-jungle bold">T</span>':'<span class="font-red-soft bold">T</span>')."</a>";
-    }
-    public static function getCloseEpicIcon($url)
-    {
-        return '<a class="tooltips" data-original-title="Close Epic" href="'.$url.'"><span class="font-red-jungle bold">C</span></a>';
-    }
-
-    public static function  getHoldEpicIcon($url)
-    {
-        return '<a class="tooltips" data-original-title="Hold Epic" href="'.$url.'"><span class="font-red-jungle bold">H</span></a>';
-    }
-
-    public static function getActiveEpicIcon($url)
-    {
-        return '<a class="tooltips" data-original-title="Activate Epic" href="'.$url.'"><i class="fa fa-font"></i></a>';
-    }
-
-    public static function getBookIcon()
-    {
-        return '<a class="tooltips" data-original-title="Click to view Document" ><i class="fa fa-book"></i></a>';
-    }
-
-    public static function getParticipantsIcon($url)
-    {
-        return '<a class="tooltips" data-original-title="Participants" href="'.$url.'"><i class="fa fa-users"></i></a>';
-    }
-
-    public static function getFeedbackIcon($id)
-    {
-        return "<a class='tooltips' data-original-title='Give Feedback' href='javascript:;' onclick=\"feedback('$id');\"><i class='fa fa fa-thumbs-up'></i></a>";
-    }
-
-    public static function getAttendeesIcon($url)
-    {
-        return '<a class="tooltips" data-original-title="Give Attendence" href="'.$url.'" ><i class="fa fa-font"></i></a>';
-    }
-
-    public static function getBacklogIcon($url)
-    {
-        return '<a class="tooltips" data-original-title="Task Backlog" href="'.$url.'"><i class="fa fa-bitcoin"></i></a>';
-    }
-    public static function getConversionIcon($url)
-    {
-        return "<a class='tooltips' data-original-title='Convert to task' href='javascript:;' onclick=\"actualUpdate('$url');\"><i class='fa fa-exchange'></i></a>";
-    }
-    public static function getQuestionpaperIcon($url)
-    {
-        return "<a class='tooltips' data-original-title='Click To Open QuestionPaper' target='_blank' href='$url'><i class='fa fa-file-text-o'></i></a>";
-    }
-    public static function getCommentIcon($url)
-    {
-        return "<a class='tooltips' data-original-title='Comments' href='javascript:;' onclick=\"comment('$url');\"><i class='fa fa-comments-o'></i></a>";
-    }
-    public static function getReviewIcon($url)
-    {
-        return '<a class="tooltips" data-original-title="We appreciate your feedback!" href="'.$url.'"><i class="fa fa-smile-o"></i></a>';
-    }
-
-    public static function getGroupusersIcon($url)
-    {
-        return "<a class='tooltips' data-original-title='Click To Open Users' target='_blank' href='$url'><i class='fa fa-users'></i></a>";
-    }
-    public static function getBugIcon($id)
-    {
-        return "<a class='tooltips' data-original-title='Give Bugcount' href='javascript:;' onclick=\"bugcount('$id');\"><i  class='fa fa-bug'></i></a>";
-    }
-    public static function getBurndownIcon($url)
-    {
-        return "<a class='tooltips' data-original-title='Burndown Chart' href='".$url."'><i class='fa fa-line-chart'></i></a>";
-    }
-    public static function getVelocityIcon($url)
-    {
-        return '<a class="tooltips" data-original-title="Velocity Chart" href="'.$url.'"><i class="fa fa-vimeo-square"></i></a>';
-    }
-    public static function getGroupQuestionpaperIcon($url)
-    {
-        return "<a class='tooltips' data-original-title='Click To Open QuestionPaper' target='_blank' href='$url'><i class='fa fa-file-text-o'></i></a>";
-    }
-
-    public static function getManagementIcon($url)
-    {
-        return '<a class="tooltips" data-original-title="Management" href="'.$url.'"><i class="fa fa-black-tie"></i></a>';
-    }
 
     public static function dateFormat($date)
     {
@@ -283,4 +136,17 @@ class Utility
     {
         return $value?Carbon::createFromFormat('Y-m-d', $value)->format('d-m-Y'):null;
     }
+
+    public static function functionalArea($value)
+    {
+        $functionalArea[0]="Accounts / Finance / Tax / CS / Audit";
+        $functionalArea[1]="Agent";
+        $functionalArea[2]="Analytics & Business Intelligence";
+        $functionalArea[3]="Architecture / Interior Design";
+        $functionalArea[4]="Banking / Insurance";
+        $functionalArea[5]="Beauty / Fitness / Spa Services";
+        $functionalArea[6]="IT Software - Application Programming / Maintenance";
+        $functionalArea[7]="HR";
+    }
+
 }
