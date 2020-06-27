@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-		    <img src=assets/images/logo.png width=8% ><a class="navbar-brand" href="index.html">ASHIRE</a>
+		    <img src=assets/images/logo_noname.png width=8% ><a class="navbar-brand" href="index.html">ASHIRE</a>
 	    	<form action="#" class="searchform order-sm-start order-lg-last">
           <div class="form-group d-flex">
             <input type="text" class="form-control pl-3" placeholder="Search">

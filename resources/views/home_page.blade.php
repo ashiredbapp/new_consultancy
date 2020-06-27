@@ -31,8 +31,8 @@
                             <span class="fa fa-phone"></span>
                         </div>
                         <div class="text pl-3">
-                            <h4 class="mb-0">Call us: +12 234 456 7890</h4>
-                            <span> 198 West 21th Street, Suite 721 New York NY 10016</span>
+                            <h4 class="mb-0">Call us: +91 9884416894</h4>
+                            <span> B10 Iswarya Flats, No 22 Viswanathapuram, Nanganallur, Chennai 600061</span>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                         </div>
                         <div class="text pl-3">
                             <h4 class="mb-0">Opening Hours</h4>
-                            <span>Mon - Sat 7:00 AM - 8:00 PM / Sundays closed</span>
+                            <span>Mon - Sat 10:00 AM - 6:00 PM </span>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
     <div class="container">
         <div class="row justify-content-center pb-5 mb-3">
       <div class="col-md-7 heading-section text-center ftco-animate">
-        <h2>We can help you in different situations</h2>
+        <h2>Ashire focuses on "Recruitment" but works for "Many Domains"</h2>
         <span class="subheading">We offer Services</span>
       </div>
     </div>
@@ -72,8 +72,8 @@
                 <span class="flaticon-goal"></span>
           </div>
           <div class="media-body p-2 mt-3">
-            <h3 class="heading">Career &amp; Business</h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+            <h3 class="heading">Recruitment Solutions</h3>
+            <p>As our tagline "Recruitment redefined", Ashire ensures to deliver high quality human resources with a strategic hiring methodology.</p>
           </div>
         </div>
       </div>
@@ -83,8 +83,8 @@
                 <span class="flaticon-stress"></span>
           </div>
           <div class="media-body p-2 mt-3">
-            <h3 class="heading">Mental &amp; Physical Care</h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+            <h3 class="heading">Training &amp; Certifications</h3>
+            <p>Ashire is preparing to provide job oriented training with certification to enhance skills of job seekers and assist them for placements.</p>
           </div>
         </div>
       </div>
@@ -94,8 +94,8 @@
                 <span class="flaticon-crm"></span>
           </div>
           <div class="media-body p-2 mt-3">
-            <h3 class="heading">People &amp; Relationships</h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+            <h3 class="heading">Research &amp; Analytics</h3>
+            <p>Ashire is preparing to provide high-end research and analytics services in order to make a business to transform to the next level.</p>
           </div>
         </div>
       </div>
@@ -105,8 +105,8 @@
                 <span class="flaticon-marriage"></span>
           </div>
           <div class="media-body p-2 mt-3">
-            <h3 class="heading">Life coaching</h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+            <h3 class="heading">ERP Solutions</h3>
+            <p>Ashire is preparing to provide ERP and software development services with the help of cutting edge technologies.</p>
           </div>
         </div>
       </div>
@@ -118,8 +118,8 @@
     <div class="container">
         <div class="row justify-content-center pb-5 mb-3">
       <div class="col-md-7 heading-section text-center ftco-animate">
-        <h2>Why coaching work?</h2>
-        <span class="subheading">Other Services</span>
+        <h2>Why Ashire?</h2>
+        <span class="subheading">Because we follow</span>
       </div>
     </div>
         <div class="row d-flex no-gutters">
@@ -135,28 +135,28 @@
                     <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-account"></span></div>
                     <div class="text pl-4">
                         <h4>Accountability</h4>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                        <p>We take responsibility to ensure 100% quality on all the services we offer, without fail.</p>
                     </div>
                 </div>
                 <div class="services-2 w-100 d-flex">
                     <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-skills"></span></div>
                     <div class="text pl-4">
                         <h4>Expertise</h4>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                        <p>Our expertise is to work along with the customer, to ensure that we give 100% satisfaction to our customers.</p>
                     </div>
                 </div>
                 <div class="services-2 w-100 d-flex">
                     <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-performance"></span></div>
                     <div class="text pl-4">
                         <h4>Speed</h4>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                        <p>Our strategic planning before we start our service, gives us a way to work fastly and smartly.</p>
                     </div>
                 </div>
                 <div class="services-2 w-100 d-flex">
                     <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-event"></span></div>
                     <div class="text pl-4">
                         <h4>Delivery</h4>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                        <p>We expect all the services we offer to be delivered with quality, reliability and commitment.</p>
                     </div>
                 </div>
         </div>
@@ -170,40 +170,40 @@
       <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
         <div class="block-18 text-center">
           <div class="text">
-            <strong class="number" data-number="50">0</strong>
+            <strong class="number" data-number="20">0</strong>
           </div>
           <div class="text">
-              <span>Years of Experienced</span>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-        <div class="block-18 text-center">
-          <div class="text">
-            <strong class="number" data-number="8500">0</strong>
-          </div>
-          <div class="text">
-              <span>Successful Entrepreneurs</span>
+              <span>No of clients</span>
           </div>
         </div>
       </div>
       <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
         <div class="block-18 text-center">
           <div class="text">
-            <strong class="number" data-number="378">0</strong>
+            <strong class="number" data-number="309">0</strong>
           </div>
           <div class="text">
-              <span>Companies Founded</span>
+              <span>No of vacancies</span>
           </div>
         </div>
       </div>
       <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
         <div class="block-18 text-center">
           <div class="text">
-            <strong class="number" data-number="1200">0</strong>
+            <strong class="number" data-number="192">0</strong>
           </div>
           <div class="text">
-              <span>Book, DVD's and Podcasts</span>
+              <span>Closed vacancies</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+        <div class="block-18 text-center">
+          <div class="text">
+            <strong class="number" data-number="8056">0</strong>
+          </div>
+          <div class="text">
+              <span>Number of registered Job Seekers</span>
           </div>
         </div>
       </div>
@@ -388,7 +388,7 @@
     <div class="container">
         <div class="row justify-content-center pb-5 mb-3">
       <div class="col-md-7 heading-section text-center ftco-animate">
-        <h2>Life saving packages</h2>
+        <h2>Pricing for Database and Consulting Services</h2>
         <span class="subheading">Price &amp; Plans</span>
       </div>
     </div>
@@ -396,15 +396,16 @@
             <div class="col-md-6 col-lg-3 ftco-animate">
           <div class="block-7">
             <div class="text-center">
-            <span class="price"><sup>$</sup> <span class="number">49</span></span>
-            <span class="excerpt d-block">Single Session</span>
+            <span class="price"><sup>Rs</sup> <span class="number">4500</span></span>
+            <span class="excerpt d-block">Smart DB Access</span>
 
             <ul class="pricing-text mb-5">
-              <li><span class="fa fa-check mr-2"></span>1 month dedicated training</li>
-              <li><span class="fa fa-check mr-2"></span>24/7 in touch on the phone</li>
-              <li><span class="fa fa-check mr-2"></span>Consultation hours</li>
-              <li><span class="fa fa-check mr-2"></span>Personal visit</li>
-              <li><span class="fa fa-check mr-2"></span>meet &amp; greet</li>
+              <li><span class="fa fa-check mr-2"></span>2 users</li>
+              <li><span class="fa fa-check mr-2"></span>RDB Access - 3000/month</li>
+              <li><span class="fa fa-check mr-2"></span>Excel Downloads - 3000/month</li>
+              <li><span class="fa fa-check mr-2"></span>Unlimited Job Postings</li>
+              <li><span class="fa fa-check mr-2"></span>24/7 support</li>
+              <li><span class="fa fa-check mr-2"></span>Price Inclusive of GST</li>
             </ul>
 
             <a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
@@ -414,15 +415,16 @@
         <div class="col-md-6 col-lg-3 ftco-animate">
           <div class="block-7">
             <div class="text-center">
-            <span class="price"><sup>$</sup> <span class="number">79</span></span>
-            <span class="excerpt d-block">Personal Session</span>
+            <span class="price"><sup>Rs</sup> <span class="number">6500</span></span>
+            <span class="excerpt d-block">Professional DB Access</span>
 
             <ul class="pricing-text mb-5">
-              <li><span class="fa fa-check mr-2"></span>1 month dedicated training</li>
-              <li><span class="fa fa-check mr-2"></span>24/7 in touch on the phone</li>
-              <li><span class="fa fa-check mr-2"></span>Consultation hours</li>
-              <li><span class="fa fa-check mr-2"></span>Personal visit</li>
-              <li><span class="fa fa-check mr-2"></span>meet &amp; greet</li>
+              <li><span class="fa fa-check mr-2"></span>2 users</li>
+              <li><span class="fa fa-check mr-2"></span>RDB Access - 7500/month</li>
+              <li><span class="fa fa-check mr-2"></span>Excel Downloads - 5000/month</li>
+              <li><span class="fa fa-check mr-2"></span>Unlimited Job Postings</li>
+              <li><span class="fa fa-check mr-2"></span>24/7 support</li>
+              <li><span class="fa fa-check mr-2"></span>Price Inclusive of GST</li>
             </ul>
 
             <a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
@@ -432,15 +434,16 @@
         <div class="col-md-6 col-lg-3 ftco-animate">
           <div class="block-7">
             <div class="text-center">
-            <span class="price"><sup>$</sup> <span class="number">109</span></span>
-            <span class="excerpt d-block">Single Coaching</span>
+            <span class="price"><sup>Rs</sup> <span class="number">60K</span></span>
+            <span class="excerpt d-block">Annual Saver-DB Access</span>
 
             <ul class="pricing-text mb-5">
-              <li><span class="fa fa-check mr-2"></span>1 month dedicated training</li>
-              <li><span class="fa fa-check mr-2"></span>24/7 in touch on the phone</li>
-              <li><span class="fa fa-check mr-2"></span>Consultation hours</li>
-              <li><span class="fa fa-check mr-2"></span>Personal visit</li>
-              <li><span class="fa fa-check mr-2"></span>meet &amp; greet</li>
+              <li><span class="fa fa-check mr-2"></span>2 users</li>
+              <li><span class="fa fa-check mr-2"></span>RDB Access - 8000/month</li>
+              <li><span class="fa fa-check mr-2"></span>Excel Downloads - 5000/month</li>
+              <li><span class="fa fa-check mr-2"></span>Unlimited Job Postings</li>
+              <li><span class="fa fa-check mr-2"></span>24/7 support</li>
+              <li><span class="fa fa-check mr-2"></span>Price Inclusive of GST</li>
             </ul>
 
             <a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
@@ -450,15 +453,16 @@
         <div class="col-md-6 col-lg-3 ftco-animate">
           <div class="block-7">
             <div class="text-center">
-            <span class="price"><sup>$</sup> <span class="number">149</span></span>
-            <span class="excerpt d-block">Life Coaching</span>
+            <span class="price"> <span class="number">7.5<sup>%</sup></span></span>
+            <span class="excerpt d-block">Consulting Charges</span>
 
             <ul class="pricing-text mb-5">
-              <li><span class="fa fa-check mr-2"></span>1 month dedicated training</li>
-              <li><span class="fa fa-check mr-2"></span>24/7 in touch on the phone</li>
-              <li><span class="fa fa-check mr-2"></span>Consultation hours</li>
-              <li><span class="fa fa-check mr-2"></span>Personal visit</li>
-              <li><span class="fa fa-check mr-2"></span>meet &amp; greet</li>
+              <li><span class="fa fa-check mr-2"></span>Price calculated out of Annual CTC</li>
+              <li><span class="fa fa-check mr-2"></span>24/7 Support</li>
+              <li><span class="fa fa-check mr-2"></span>45 Days payment time</li>
+              <li><span class="fa fa-check mr-2"></span>Negotiable on bulk vacancies</li>
+              <li><span class="fa fa-check mr-2"></span>On Time Completion</li>
+              <li><span class="fa fa-check mr-2"></span>Price - Exclusive of GST</li>
             </ul>
 
             <a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
